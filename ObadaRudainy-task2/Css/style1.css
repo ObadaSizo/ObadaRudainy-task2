@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+}
+body {
+    background-color: rgb(76, 176, 80);
+    font-family: 'Rubik', sans-serif;
+}
+.container {
+    background-color: rgb(249, 249, 249);
+    color: rgb(138,138,138);
+    width: 375px;
+    height: 525px;
+    padding: 25px;
+    margin: 25px auto;
+    box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.168);
+}
+h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+.p1 {
+    padding-bottom:5px ;
+    font-size: 13px;
+}
+i {
+    position: relative;
+    top: 28px;
+    left: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color:rgb(152, 177, 152)
+}
+form input {
+    margin-bottom: 0px;
+    width: 90%;
+    height: 30px;
+    padding-left: 30px;
+    border: 2px solid rgb(225,225,225);
+}
+form input::placeholder ,textarea::placeholder {
+    font-size: 13px;
+    color: rgb(139, 139, 139);
+} 
+input:focus ,textarea:focus{
+    outline: none;
+    border: 2px solid rgb(193,193,193);
+}
+textarea {
+    margin-top: 18px;
+    width: 96%;
+    height: 80px;
+    border: 2px solid rgb(225,225,225);
+    padding: 10px 5px;
+    font-family: monospace;
+}
+textarea::placeholder{
+    font-size: 13px;
+}
+form input[type="submit"]{
+    width: 100%;
+    margin-top:15px ;
+    background-color:rgb(66, 172, 70) ;
+    color: white;
+    border: none;
+    padding: 0;
+    height: 35px;
+}
+.p2{
+    font-size: 13px;
+    margin-top: 25px;
+    text-align: center;
+}

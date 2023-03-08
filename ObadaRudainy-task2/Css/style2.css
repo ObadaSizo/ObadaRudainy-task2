@@ -1,0 +1,90 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    font-weight: 300;
+    background-color:rgb(27,188,155) ;
+}
+.container {
+    width: 750px;
+    height: 350px;
+    margin: 20px auto;
+    padding: 20px 15px 10px 40px;
+    background-color:rgb(255,255,255) ;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: space-between;
+}
+.sign-in .sign {
+    position: relative;
+}
+.sign-in .sign input{
+    width:240px;
+    font-size: 15px;
+    padding: 15px 0 10px 36px;
+    margin-top: 10px;
+    border:none ;
+    border-bottom: 2px solid rgb(230,230,230);
+}
+.sign-in .sign span {
+    font-size: 14px;
+    position: absolute;
+    bottom: 11px;
+    left: 2px;
+    color: rgb(144, 152, 159) ;
+}
+.sign-in input:focus{
+    outline: none;
+}
+.sign-in #s3{
+    padding: 15px 0 10px 44px;
+}
+.sign-in #s4{
+    padding: 15px 0 10px 49px;
+}
+.sign-in input[type="submit"] {
+    display: block;
+    background-color:rgb(83,202,206) ;
+    color: white;
+    border: none;
+    padding: 15px 92px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.sign-in input[type="submit"]:focus{
+    outline: none;
+}
+.content {
+    padding-left: 40px;
+}
+.content h1 {
+    color: rgb(73,77, 78);
+    font-weight: 900;
+}
+.content .p1 {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    color:rgb(125, 133, 141) ;
+    padding: 25px 0;
+}
+.content .p2 {
+    color: 11px;
+    margin-top: 40px;
+    margin-right: 5px;
+    color: rgb(125, 133, 141);
+}
+.content .p2 span {
+    font-size: 12px;
+    margin: 0 7px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 1px;
+    box-shadow: 1.2px 1.2px 2px rgba(0, 0, 0, 0.251);
+    cursor: pointer;
+}
